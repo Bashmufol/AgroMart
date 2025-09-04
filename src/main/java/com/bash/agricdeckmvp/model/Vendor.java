@@ -2,8 +2,6 @@ package com.bash.agricdeckmvp.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import com.vladmihalcea.hibernate.type.json.JsonType;
-import org.hibernate.annotations.Type;
 
 import java.time.LocalDateTime;
 
