@@ -23,6 +23,7 @@ public class User {
     @Column(name = "phone_number", nullable = false)
     private String phoneNumber;
     private String address;
+    @Column(nullable = false)
     private String country;
     private String state;
     private String city;
